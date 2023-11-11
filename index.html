@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Meal For Your Ingredients</title>
+    <script src="https://kit.fontawesome.com/15d0d22137.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find Meals For Your Ingradients</h2>
+                <blockquote>Indulge in Culinary Excellence: Where Fresh Ingredients Meet Exquisite Flavors, Served Straight to Your
+                    Table. <br>
+                    <cite>- Jasmeet Singh</cite>
+                </blockquote>
+
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" id="search-input"
+                    placeholder="Enter an ingredient"/>
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <button type="button" class="favorite-opn btn" id="favorite-opn">
+                    Favorite
+                </button>
+            </div>
+
+            <div id="favorite-id" class="favorite-recipes">
+                <h2 class="title">Favorite Recipes</h2>
+                <div id="favorite-meals">
+                    <!-- Favorite meals will be displayed here -->
+                    <!-- <div class="favorite-meal-item">
+                        <div class="favorite-meal-img">
+                            <img src="food.jpg" alt="food">
+                        </div>
+                        <div class="favorite-meal-name">
+                            <h3>Hamburguer and Chips</h3>
+                            <button class="remove-favorite-btn"> Remove from Favorites</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">Your Search Results: </h2>
+                <div id="meal">
+                   <!-- meal-item -->
+                    <!-- <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="./img/food.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Hamburguer and Chips</h3>
+                            <a href="#" class="recipe-btn"> Get Recipe</a>
+                        </div>
+                    </div> -->
+                   
+                    
+                </div>
+            </div>
+
+            <div class="meal-details">
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <!-- meal content -->
+                <div class="meal-details-content">
+                    <!-- <h2 class="recipe-title">Meals Name Here</h2>
+                    <p class="recipe-category">Category Name</p>
+                    <div class="recipe-instruct">
+                        <h3>Instructions:</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, iusto?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam repudiandae r?
+                        hic deleniti unde consectetur?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, iusto?
+                        r</p>
+                    </div>
+                    <div class="recipe-meal-img">
+                        <img src="./img/food.jpg" alt="" />
+                    </div>
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">Watch Video</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
